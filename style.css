@@ -1,0 +1,115 @@
+/* Estrutura do Menu */
+/* Primeiros passos */
+
+
+#bodyindex{
+    background-color: rgb(5, 5, 5);
+}
+
+#bodypag1{
+    background-color: rgba(128, 190, 34, 0.89);
+    font-family: "arial";
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px; 
+    margin: 0 auto; 
+    text-shadow: 6px 6px 8px #000; 
+
+}
+#bodypag2{
+    background-color: plum;
+    font-family: "Courier New";
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px; 
+    margin: 0 auto; 
+    text-shadow: 2px 2px 4px #000; 
+}
+#bodypag3{
+    background-color: rgb(35, 176, 241);
+    font-family: "arial";
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px; 
+    margin: 0 auto; 
+    text-shadow: 2px 2px 4px #000; 
+}
+#bodypag4{
+    background-color: rgb(13, 134, 104);
+    font-family: "Times New Roman";
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px; 
+    margin: 0 auto; 
+    text-shadow: 2px 2px 4px #000; 
+}
+
+h1{
+    color: rgba(199, 4, 4, 0.863);
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar ul {
+    display: flex;
+    gap: 15px;
+  }
+  
+li a {
+    color: blue;
+    text-decoration: none;
+}
+
+  li {
+    list-style: none;
+  }
+
+.image-text {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.menu-text {
+    position: absolute;
+    top:90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+    font-size: 30px;
+}
+
+.credito-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+}
+
+
+.menupags-text {
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+    font-size: 20px;
+}
